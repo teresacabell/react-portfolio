@@ -2,9 +2,10 @@ export const projects = [
     {
       name: "Run Buddy",
       liveURL: "https://teresacabell.github.io/run-buddy/",
+      image: "./screenshot-runbuddy.png",
       gURL: "https://github.com/teresacabell/run-buddy",
       tech: "HTML/CSS",
-      style: "runbuddy",
+      style: "run-buddy",
     },
     {
       name: "Flying Dollars",
