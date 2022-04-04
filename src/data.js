@@ -21,6 +21,27 @@ export const projects = [
       tech: "HTML/CSS/JavaScript/Express/mysql2/Sequelize",
       style: "old-fashioned",
     },
+    {
+        name: "Budget Tracker",
+        liveURL: "https://secure-eyrie-73081.herokuapp.com/",
+        gURL: "https://github.com/teresacabell/symmetrical-bassoon",
+        tech: "JavaScript/HTML/CSS",
+        style: "budget-tracker"
+    },
+    {
+        name: "Work Day Scheduler",
+        liveURL: "https://teresacabell.github.io/super-disco/",
+        gURL: "https://github.com/teresacabell/super-disco",
+        tech: "HTML/JavaScript/CSS",
+        style: "work-day-scheduler"
+    },
+    {
+        name: "Robot Gladiators",
+        liveURL: "https://teresacabell.github.io/robot-gladiators/",
+        gURL: "https://github.com/teresacabell/robot-gladiators",
+        tech: "HTML/JavaScript",
+        style: "robot-gladiators"
+    }
   ];
 
   

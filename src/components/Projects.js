@@ -10,7 +10,7 @@ const styles = {
 const Projects = () => {
     console.log(projects);
   return (
-    <section style={styles}>
+    <section id="projects" style={styles}>
       <h2 className="section-header">Previous Work</h2>
       <Wrapper projects={projects}/>
       {/* <div className="project-wrapper">

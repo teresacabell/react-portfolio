@@ -13,7 +13,6 @@ const About = () => {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Teresa!
             <img src={profilePic} alt="Teresa Schwirtlich" />
-            <br className="hidden lg:inline-block" /> I like to build cool apps.
           </h1>
           <p className="mb-8 leading-relaxed">
             I was born and raised in Corpus Christi, TX. Watching my mother, an
