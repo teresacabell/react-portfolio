@@ -1,25 +1,26 @@
 import React from "react";
-import { projects } from "../data";
+import myProjects from "../data"
 import ProjectCard from "./ProjectCard";
-import Wrapper from "./Wrapper";
 
-const styles = {
+const sectionStyles = {
     border: "1px dashed green"
 };
 
+const wrapperStyle = {
+  display: "flex",
+  justifyContent: "space-between",
+};
+
 const Projects = () => {
-    console.log(projects);
+    console.log(myProjects);
   return (
-    <section id="projects" style={styles}>
+    <section id="projects" style={sectionStyles}>
       <h2 className="section-header">Previous Work</h2>
-      <Wrapper projects={projects}/>
-      {/* <div className="project-wrapper">
-
-        {projects.map((project, index) => (
-            <ProjectCard name={project.name} tech={project.tech} key={index} liveURL={project.liveURL} gURL={project.gURL}/>
+      <div className="wrapper-project" style={wrapperStyle}>
+        {myProjects.map((project) => (
+          <ProjectCard name={project.name} key={project.id} image={project.image} liveURL={project.liveURL} gURL={project.gURL}/>
         ))}
-
-      </div> */}
+      </div>
     </section>
   );
 };

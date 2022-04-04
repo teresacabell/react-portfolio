@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
+import Form from "react-bootstrap/Form";
+
 
 const ContactMe = () => {
   const [formState, setFormState] = useState({
@@ -38,30 +40,30 @@ const ContactMe = () => {
   }
 
   return (
-    <section className="contact" id="contact">
+    <section className="contact" id="contact" >
       <div>
         <h2>Reach out</h2>
       </div>
-      <form id="contact-form" onSubmit={handleSubmit}>
-          <div>
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-          </div>
-          <div>
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" defaultValue={email} onBlur={handleChange} />
-          </div>
-          <div>
-              <label htmlFor="message">Message</label>
+      <Form id="contact-form" onSubmit={handleSubmit}>
+          <Form.Group>
+              <Form.Label htmlFor="name">Name</Form.Label>
+              <Form.Control type="text" name="name" defaultValue={name} onBlur={handleChange} />
+          </Form.Group>
+          <Form.Group>
+              <Form.Label htmlFor="email">Email</Form.Label>
+              <Form.Control type="text" name="email" defaultValue={email} onBlur={handleChange} />
+          </Form.Group>
+          <Form.Group>
+              <Form.Label htmlFor="message">Message</Form.Label>
               <textarea name="message" rows="7" defaultValue={message} onBlur={handleChange} />
-          </div>
+          </Form.Group>
           {errorMessage && (
                 <div>
-                    <p className="error-text" style={{ color: 'red' }}>{errorMessage}</p>
+                    <Form.Text className="error-text" style={{ color: 'red' }}>{errorMessage}</Form.Text>
                 </div>
             )}
             <button type="submit">Submit my message</button>
-      </form>
+      </Form>
     </section>
   );
 };
