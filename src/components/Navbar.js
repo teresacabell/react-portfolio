@@ -1,12 +1,11 @@
 import React from "react";
 
 const Navbar = function () {
+  const pages = ["About", "Projects", "Resume", "Contact"];
 
-    const pages = ['About', 'Projects', 'Resume', 'Contact'];
-
-    return (
-        <header style={{border: '1px solid black'}} className="navbar-list">
-             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+  return (
+    <header style={{ border: "1px solid black" }} className="navbar-list">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
             About Me
@@ -23,9 +22,14 @@ const Navbar = function () {
           Work Together
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a> */}
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <a href="#resume" className="mr-5 hover:text-white">
+            Resume
+          </a>
+        </nav>
       </div>
-        </header>
-    )
+    </header>
+  );
 };
 
 export default Navbar;
