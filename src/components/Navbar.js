@@ -1,11 +1,12 @@
 import React from "react";
 
-const Navbar = function () {
+const Navbar = () => {
   const pages = ["About", "Projects", "Resume", "Contact"];
 
   return (
     <header style={{ border: "1px solid black" }} className="navbar-list">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <h1>Teresa Schwirtlich</h1>
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
             About Me

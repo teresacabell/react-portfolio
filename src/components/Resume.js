@@ -22,7 +22,7 @@ const Resume = () => {
                         <li>APIs</li>
                         <li>Node</li>
                         <li>Express</li>
-                        <li>Sequelize/MySQL</li>
+                        <li>Sequelize/My</li>
                         <li>MongoDB</li>
                         <li>REST</li>
                     </ul>
