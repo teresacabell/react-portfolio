@@ -18,8 +18,9 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="footer" style={{ border: "1px dashed blue" }}>
+        <footer id="footer" className="footer" style={{ border: "1px dashed blue" }}>
             <ul className="nav-footer-list">
+                <h2>Links</h2>
                 {links.map((link) => (
                     <li className="list-item" key={link.name}>
                     <a href={link.url}>{link.name}</a>
