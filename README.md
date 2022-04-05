@@ -4,7 +4,7 @@
 An portfolio made with React to show previous works so that potential employers can see my skills.
 
 ## App Screenshot
-![](images/reactport.png)
+![](images/ReactPort.png)
 
 ### App Deployed to Heroku 
 https://secure-eyrie-73081.herokuapp.com/
