@@ -3,12 +3,13 @@ import Card from "react-bootstrap/Card";
 
 const cardStyle = {
   width: "18em",
-  border: "1px solid black",
-  margin: "1em 1em 1em 1em",
+  border: "2px solid green",
+  margin: "1em 1em 1em 1em"
 };
 
 const imageStyle = {
-    width: "100%"
+    width: "100%",
+    height: "auto"
 };
 
 const ProjectCard = (props) => {

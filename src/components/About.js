@@ -2,7 +2,7 @@ import React from "react";
 import profilePic from "../assets/images/teresaheadshot.png";
 
 const aboutStyles = {
-  border: "1px dashed red",
+  border: "2px solid green",
   padding: "20px",
   display: "flex",
 };
@@ -10,7 +10,7 @@ const aboutStyles = {
 const profPicStyles = {
   width: "80%",
   height: "auto",
-  border: "5px solid sage"
+  border: "5px solid green"
 };
 
 const aboutLinkStyles = {

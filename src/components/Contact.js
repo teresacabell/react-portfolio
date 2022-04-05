@@ -4,6 +4,9 @@ import Form from "react-bootstrap/Form";
 
 const contactStyles = {
   padding: "20px",
+  border: "2px solid green",
+  display: "grid",
+  justifyContent: "space-between"
 };
 
 const ContactMe = () => {
@@ -45,19 +48,22 @@ const ContactMe = () => {
   return (
     <section style={contactStyles} className="contact" id="contact" >
       <div>
-        <h2>Reach out</h2>
+        <h2>Reach Out</h2>
       </div>
       <Form id="contact-form" onSubmit={handleSubmit}>
           <Form.Group>
               <Form.Label htmlFor="name">Name</Form.Label>
+              <br/>
               <Form.Control type="text" name="name" defaultValue={name} onBlur={handleChange} />
           </Form.Group>
           <Form.Group>
               <Form.Label htmlFor="email">Email</Form.Label>
+              <br/>
               <Form.Control type="text" name="email" defaultValue={email} onBlur={handleChange} />
           </Form.Group>
           <Form.Group>
               <Form.Label htmlFor="message">Message</Form.Label>
+              <br/>
               <textarea name="message" rows="7" defaultValue={message} onBlur={handleChange} />
           </Form.Group>
           {errorMessage && (

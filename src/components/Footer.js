@@ -1,5 +1,9 @@
 import React from "react";
 
+const footerStyle = {
+    border: '2px solid green',
+}
+
 const Footer = () => {
 
     const links = [
@@ -18,7 +22,7 @@ const Footer = () => {
     ];
 
     return (
-        <footer id="footer" className="footer" style={{ border: "1px dashed blue" }}>
+        <footer id="footer" style={footerStyle} className="footer">
             <ul className="nav-footer-list">
                 <h2>Links</h2>
                 {links.map((link) => (

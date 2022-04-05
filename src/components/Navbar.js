@@ -4,6 +4,7 @@ const headerStyle = {
   display: "flex",
   justifyContent: "space-between",
   padding: "20px",
+  border: "2px solid green"
 };
 
 const nameStyle = {

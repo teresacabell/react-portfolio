@@ -5,7 +5,7 @@ const myProjects = [
     liveURL: "https://teresacabell.github.io/run-buddy/",
     image: require("./assets/images/screenshot-budget.png"),
     gURL: "https://github.com/teresacabell/run-buddy",
-    tech: "HTML/CSS",
+    tech: "HTML, CSS",
     style: "run-buddy",
   },
   {
@@ -14,7 +14,7 @@ const myProjects = [
     liveURL: "https://jasonvissage.github.io/Flying-Dollars/",
     image: require("./assets/images/screenshot-weather.png"),
     gURL: "https://github.com/jasonvissage/Flying-Dollars",
-    tech: "HTML/CSS/JavaScript/Bulma",
+    tech: "HTML, CSS, JavaScript, Bulma",
     style: "flying-dollars",
   },
   {
@@ -23,7 +23,7 @@ const myProjects = [
     liveURL: "https://damp-temple-66157.herokuapp.com/",
     image: require("./assets/images/screenshot-drinks.jpg"),
     gURL: "https://github.com/paul88vera/Old-Fashioned/",
-    tech: "HTML/CSS/JavaScript/Express/mysql2/Sequelize",
+    tech: "HTML, CSS, JavaScript, Express, mysql2",
     style: "old-fashioned",
   },
   {
@@ -32,7 +32,7 @@ const myProjects = [
     liveURL: "https://secure-eyrie-73081.herokuapp.com/",
     image: require("./assets/images/screenshot-budget.png"),
     gURL: "https://github.com/teresacabell/symmetrical-bassoon",
-    tech: "JavaScript/HTML/CSS",
+    tech: "JavaScript, HTML, CSS",
     style: "budget-tracker",
   },
   {
@@ -41,7 +41,7 @@ const myProjects = [
     liveURL: "https://teresacabell.github.io/super-disco/",
     image: require("./assets/images/screenshot-scheduler.png"),
     gURL: "https://github.com/teresacabell/super-disco",
-    tech: "HTML/JavaScript/CSS",
+    tech: "HTML, JavaScript, CSS",
     style: "work-day-scheduler",
   },
   {
@@ -50,7 +50,7 @@ const myProjects = [
     liveURL: "https://teresacabell.github.io/robot-gladiators/",
     image: require("./assets/images/screenshot-robot.png"),
     gURL: "https://github.com/teresacabell/robot-gladiators",
-    tech: "HTML/JavaScript",
+    tech: "HTML, JavaScript",
     style: "robot-gladiators",
   },
 ];
