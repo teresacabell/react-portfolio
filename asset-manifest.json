@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/react-portfolio/static/js/main.ec488eda.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/teresaheadshot.png": "/react-portfolio/static/media/teresaheadshot.c4189c0ca27a2d098519.png",
+    "static/media/screenshot-weather.png": "/react-portfolio/static/media/screenshot-weather.c688061b91a598d8f6ce.png",
+    "static/media/screenshot-drinks.jpg": "/react-portfolio/static/media/screenshot-drinks.2d3e9f2110b4b3a45f52.jpg",
+    "static/media/TeresaSchwirtlichResume.PDF": "/react-portfolio/static/media/TeresaSchwirtlichResume.089bf013876ab7fca482.PDF",
+    "static/media/screenshot-scheduler.png": "/react-portfolio/static/media/screenshot-scheduler.da06674df76aa51f8070.png",
+    "static/media/screenshot-budget.png": "/react-portfolio/static/media/screenshot-budget.511f226fa99d9ed56339.png",
+    "static/media/screenshot-robot.png": "/react-portfolio/static/media/screenshot-robot.d090b85d8f7572a12407.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.e6c13ad2.css.map": "/react-portfolio/static/css/main.e6c13ad2.css.map",
+    "main.ec488eda.js.map": "/react-portfolio/static/js/main.ec488eda.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ec488eda.js"
+  ]
+}
