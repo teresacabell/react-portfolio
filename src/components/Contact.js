@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 import Form from "react-bootstrap/Form";
 
+const contactStyles = {
+  padding: "20px",
+};
 
 const ContactMe = () => {
   const [formState, setFormState] = useState({
@@ -40,7 +43,7 @@ const ContactMe = () => {
   }
 
   return (
-    <section className="contact" id="contact" >
+    <section style={contactStyles} className="contact" id="contact" >
       <div>
         <h2>Reach out</h2>
       </div>

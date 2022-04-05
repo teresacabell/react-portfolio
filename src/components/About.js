@@ -2,7 +2,8 @@ import React from "react";
 import profilePic from "../assets/images/teresaheadshot.png";
 
 const styles = {
-    border: "1px dashed red"
+    border: "1px dashed red",
+    padding: "20px"
 }
 
 const About = () => {

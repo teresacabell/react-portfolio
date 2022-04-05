@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 const cardStyle = {
   width: "18em",
   border: "1px solid black",
-  margin: "1em 1em 1em 1em"
+  margin: "1em 1em 1em 1em",
 };
 
 const imageStyle = {

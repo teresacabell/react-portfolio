@@ -3,7 +3,8 @@ import myProjects from "../data"
 import ProjectCard from "./ProjectCard";
 
 const sectionStyles = {
-    border: "1px dashed green"
+    border: "1px dashed green",
+    padding: "20px"
 };
 
 const wrapperStyle = {

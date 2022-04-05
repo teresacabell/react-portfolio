@@ -1,9 +1,13 @@
 import React from "react";
 import resume from "../assets/downloads/TeresaSchwirtlichResume.PDF";
 
+const resumeStyles = {
+    padding: "20px"
+}
+
 const Resume = () => {
     return (
-        <section id="resume">
+        <section style={resumeStyles} id="resume">
             <h2 className="section-header">Resume</h2>
             <p className="link-download"> Download my <a href={resume}>resume</a></p>
 
