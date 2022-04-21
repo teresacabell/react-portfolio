@@ -53,6 +53,15 @@ const myProjects = [
     tech: "HTML, JavaScript",
     style: "robot-gladiators",
   },
+  {
+    id: 7,
+    name: "Wheel of Chore",
+    liveURL: "https://teresacabell.github.io/wheel-of-chore/",
+    image: require("./assets/images/screenshot-wheel.png"),
+    gURL: "https://github.com/teresacabell/wheel-of-chore",
+    tech: "JavaScript, HTML, CSS",
+    style: "wheel-of-chore"
+  }
 ];
 
 export default myProjects;
